@@ -161,7 +161,7 @@ double Calculator::calculate(const std::string end_token) {
 		{"-", 1},
 		{"*", 2},
 		{"/", 2},
-		{"", 0},
+		{"^", 3},
 	};
 
 	while (has_more_token()) {
